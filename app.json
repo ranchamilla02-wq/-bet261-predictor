@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "BET261 Predictor",
+    "name": "BET261 Predictor v3.0",
     "slug": "bet261-predictor",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,21 +11,14 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
-      "package": "com.arnot.bet261predictor",
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+      "package": "com.chamilla.bet261predictor",
+      "versionCode": 1
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "61e1d947-4891-44d6-bab8-e0d5a1842402"
+      }
     }
   }
 }
