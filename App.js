@@ -117,7 +117,7 @@ export default function App() {
             <Text style={styles.cardTitle}>MON PROFIL 🌱 DÉBUTANT</Text>
           </View>
           <View style={styles.statsRow}>
-            <Text style={styles.ballEmoji}>⚽️</Text>
+            <Text style={styles.ballEmoji}>⚽</Text>
             <View style={styles.statsCol}>
               <Text style={styles.statLabel}>WINRATE</Text>
               <Text style={styles.statValue}>0%</Text>
@@ -134,6 +134,7 @@ export default function App() {
               <Text style={styles.statLabel}>RECORD</Text>
               <Text style={styles.statValue}>0 🏆</Text>
             </View>
+          </View>
           <View style={styles.progressBarBg}>
             <View style={styles.progressBar} />
           </View>
